@@ -1,0 +1,15 @@
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/bin/Release/net7.0/OOP2
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/bin/Release/net7.0/OOP2.deps.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/bin/Release/net7.0/OOP2.runtimeconfig.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/bin/Release/net7.0/OOP2.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/bin/Release/net7.0/OOP2.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.csproj.AssemblyReference.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.AssemblyInfoInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.AssemblyInfo.cs
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.csproj.CoreCompileInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/refint/OOP2.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/OOP2.genruntimeconfig.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 2/obj/Release/net7.0/ref/OOP2.dll

@@ -1,15 +1,16 @@
-﻿<Properties StartupConfiguration="{0DBED5DC-9E29-4103-A783-68E48C168FDA}|Default">
+﻿<Properties StartupConfiguration="{38B8C678-9471-4DD3-8A61-FC43AC357881}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OOP2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.ItemProperties.OOP1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOP3new/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOP 2/Program.cs">
     <Files>
-      <File FileName="OOP3new/Program.cs" Line="45" Column="1" />
-      <File FileName="OOP3new/CalcoloArray.cs" Line="66" Column="1" />
+      <File FileName="OOP 2/CalcoloArray.cs" Line="18" Column="27" />
+      <File FileName="OOP 2/Program.cs" Line="18" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,7 @@
           <Node name="Week1" expanded="True">
             <Node name="Intro OOP" expanded="True" />
             <Node name="OOP1" expanded="True" />
-            <Node name="OOP3" expanded="True">
+            <Node name="OOP2" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -25,5 +26,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.OOP3 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
