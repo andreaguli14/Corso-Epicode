@@ -13,3 +13,18 @@
 /Users/andreaguli14/Projects/OOP 1/OOP 1/obj/Debug/net7.0/OOP 1.pdb
 /Users/andreaguli14/Projects/OOP 1/OOP 1/obj/Debug/net7.0/OOP1.genruntimeconfig.cache
 /Users/andreaguli14/Projects/OOP 1/OOP 1/obj/Debug/net7.0/ref/OOP 1.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/bin/Debug/net7.0/OOP 1
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/bin/Debug/net7.0/OOP 1.deps.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/bin/Debug/net7.0/OOP 1.runtimeconfig.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/bin/Debug/net7.0/OOP 1.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/bin/Debug/net7.0/OOP 1.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP1.csproj.AssemblyReference.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP1.AssemblyInfoInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP1.AssemblyInfo.cs
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP1.csproj.CoreCompileInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP 1.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/refint/OOP 1.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP 1.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/OOP1.genruntimeconfig.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP 1/obj/Debug/net7.0/ref/OOP 1.dll

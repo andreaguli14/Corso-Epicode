@@ -1,0 +1,15 @@
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/bin/Release/net7.0/OOP3new
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/bin/Release/net7.0/OOP3new.deps.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/bin/Release/net7.0/OOP3new.runtimeconfig.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/bin/Release/net7.0/OOP3new.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/bin/Release/net7.0/OOP3new.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.csproj.AssemblyReference.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.AssemblyInfoInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.AssemblyInfo.cs
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.csproj.CoreCompileInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/refint/OOP3new.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/OOP3new.genruntimeconfig.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/OOP3new/obj/Release/net7.0/ref/OOP3new.dll
