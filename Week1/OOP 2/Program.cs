@@ -1,27 +1,91 @@
-﻿namespace OOP2;
+﻿using OOP2;
+
+namespace OOP2;
 class Program
 {
     static void Main(string[] args)
     {
 
-        CalcoloArray calcoloarray = new CalcoloArray();
         ContoCorrente conto = new ContoCorrente();
-        double versamentoIniziale;
+
+        conto.Banca();
+             
+    }
+   
+}
+class ContoCorrente
+{
+    private bool statoConto;
+    private decimal saldo;
+
+    public ContoCorrente()
+    {
+        statoConto = false;
+        saldo = 0;
+    }
+
+    public void ApriConto(decimal depositoIniziale)
+    {
+        if (!statoConto && depositoIniziale >= 1000)
+        {
+            statoConto = true;
+            saldo += depositoIniziale;
+            Console.WriteLine("Conto aperto con successo.");
+            Console.WriteLine($"Saldo: {saldo}");
+        }
+        else
+        {
+            Console.WriteLine("Impossibile aprire il conto");
+        }
+    }
+
+    public void Versamento(decimal importo)
+    {
+        if (statoConto && importo > 0)
+        {
+            saldo += importo;
+            Console.WriteLine($"Versamento di {importo} euro effettuato con successo. Nuovo saldo: {saldo} euro.");
+        }
+        else
+        {
+            Console.WriteLine("Impossibile effettuare il versamento.");
+        }
+    }
+
+    public void Prelevamento(decimal importo)
+    {
+        if (statoConto && importo > 0 && importo <= saldo)
+        {
+            saldo -= importo;
+            Console.WriteLine($"Prelievo di {importo} euro effettuato con successo. Nuovo saldo: {saldo} euro.");
+        }
+        else
+        {
+            Console.WriteLine("Impossibile effettuare il prelievo.");
+        }
+
+
+    }
+
+    public void Banca()
+    {
+        CalcoloArray calcoloarray = new CalcoloArray();
+        decimal versamentoIniziale;
 
         Console.WriteLine("Apertura in corso....");
         Console.Write("Fai un versamento per aprire il conto(min 1000): ");
-        while (!double.TryParse(Console.ReadLine(), out versamentoIniziale))
+        while (!decimal.TryParse(Console.ReadLine(), out versamentoIniziale))
         {
             Console.Write("Importo non valido. Rifai il versamento iniziale: ");
         }
 
-        conto.ApriConto(versamentoIniziale);
-        Console.WriteLine($"Saldo: {conto.saldo}");
+        ApriConto(versamentoIniziale);
+        
 
         int scelta = 0;
-        double importo;
+        decimal importo;
 
-        while (conto.statoConto && scelta != 5)
+        while (statoConto && scelta != 5)
         {
             Console.WriteLine();
             Console.WriteLine("Cosa vuoi fare?");
@@ -40,20 +104,20 @@ class Program
             {
                 case 1:
                     Console.Write("Inserisci l'importo del versamento: ");
-                    while (!double.TryParse(Console.ReadLine(), out importo) || importo <= 0)
+                    while (!decimal.TryParse(Console.ReadLine(), out importo) || importo <= 0)
                     {
                         Console.Write("Importo non valido. Inserisci nuovamente l'importo del versamento: ");
                     }
-                    conto.Versamento(importo);
+                    Versamento(importo);
                     break;
 
                 case 2:
                     Console.Write("Inserisci l'importo del prelievo: ");
-                    while (!double.TryParse(Console.ReadLine(), out importo) || importo <= 0)
+                    while (!decimal.TryParse(Console.ReadLine(), out importo) || importo <= 0)
                     {
                         Console.Write("Importo non valido. Inserisci nuovamente l'importo del prelievo: ");
                     }
-                    conto.Prelevamento(importo);
+                    Prelevamento(importo);
                     break;
                 case 3:
                     calcoloarray.sommaMedia();
@@ -65,63 +129,7 @@ class Program
 
 
         }
-        
-        
+
+
     }
-   
-}
-class ContoCorrente
-{
-    public bool statoConto;
-    public double saldo;
-
-    public ContoCorrente()
-    {
-        statoConto = false;
-        saldo = 0;
-    }
-
-    public void ApriConto(double depositoIniziale)
-    {
-        if (!statoConto && depositoIniziale >= 1000)
-        {
-            statoConto = true;
-            saldo += depositoIniziale;
-            Console.WriteLine("Conto aperto con successo.");
-        }
-        else
-        {
-            Console.WriteLine("Impossibile aprire il conto");
-        }
-    }
-
-    public void Versamento(double importo)
-    {
-        if (statoConto && importo > 0)
-        {
-            saldo += importo;
-            Console.WriteLine($"Versamento di {importo} euro effettuato con successo. Nuovo saldo: {saldo} euro.");
-        }
-        else
-        {
-            Console.WriteLine("Impossibile effettuare il versamento.");
-        }
-    }
-
-    public void Prelevamento(double importo)
-    {
-        if (statoConto && importo > 0 && importo <= saldo)
-        {
-            saldo -= importo;
-            Console.WriteLine($"Prelievo di {importo} euro effettuato con successo. Nuovo saldo: {saldo} euro.");
-        }
-        else
-        {
-            Console.WriteLine("Impossibile effettuare il prelievo.");
-        }
-
-        
-    }
-
-    
 }
