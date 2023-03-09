@@ -1,5 +1,4 @@
 ﻿namespace OOP2;
-
 	public class CalcoloArray
 	{
 		public void sommaMedia()
