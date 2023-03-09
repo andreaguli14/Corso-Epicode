@@ -77,11 +77,13 @@ class ContoCorrente
         }
 
         ApriConto(versamentoIniziale);
+
+
         
 
         int scelta = 0;
         decimal importo;
-
+        
         while (statoConto && scelta != 5)
         {
             Console.WriteLine();

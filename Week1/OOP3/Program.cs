@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-        
+
         Utente.Start();
     }
 }
@@ -25,7 +25,7 @@ static class Utente
 
             if (string.IsNullOrEmpty(username) || password != confermaPassword)
             {
-                Console.WriteLine("Errore: username o password non validi.");
+                Console.WriteLine("Errore: username o password non validi ");
             }
             else
             {
@@ -33,7 +33,7 @@ static class Utente
                 UtenteLoggato = true;
                 Accesso = DateTime.Now;
                 Accessi.Add(Accesso);
-                Console.WriteLine("Login effettuato con successo.");
+                Console.WriteLine("Login effettuato con successo ");
             }
         }
 
@@ -41,13 +41,13 @@ static class Utente
         {
             if (!UtenteLoggato)
             {
-                Console.WriteLine("Errore: nessun utente loggato.");
+                Console.WriteLine("Errore: nessun utente loggato ");
             }
             else
             {
                 Username = null;
                 UtenteLoggato = false;
-                Console.WriteLine("Logout effettuato con successo.");
+                Console.WriteLine("Logout effettuato con successo ");
             }
         }
 
@@ -55,11 +55,11 @@ static class Utente
         {
             if (!UtenteLoggato)
             {
-                Console.WriteLine("Errore: nessun utente loggato.");
+                Console.WriteLine("Errore: nessun utente loggato ");
             }
             else
             {
-                Console.WriteLine($"L'utente {Username} ha effettuato il login in data {Accesso}.");
+                Console.WriteLine($"L'utente {Username} ha effettuato il login in data {Accesso} ");
             }
         }
 
@@ -67,11 +67,11 @@ static class Utente
         {
             if (!UtenteLoggato)
             {
-                Console.WriteLine("Errore: nessun utente loggato.");
+                Console.WriteLine("Errore: nessun utente loggato ");
             }
             else
             {
-                Console.WriteLine($"Storico accessi per l'utente {Username}:");
+                Console.WriteLine($"Storico accessi per l'utente {Username}: ");
                 foreach (var accesso in Accessi)
                 {
                     Console.WriteLine(accesso);
@@ -110,16 +110,16 @@ static class Utente
                             Utente.ListaAccessi();
                             break;
                         case 5:
-                            Console.WriteLine("Uscita dall'applicazione.");
+                            Console.WriteLine("Uscita dall'applicazione ");
                             break;
                         default:
-                            Console.WriteLine("Scelta non valida. Riprova.");
+                            Console.WriteLine("Scelta non valida" );
                             break;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Scelta non valida. Riprova.");
+                    Console.WriteLine("Scelta non valida ");
                 }
 
                 Console.WriteLine();

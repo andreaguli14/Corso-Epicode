@@ -1,14 +1,19 @@
-﻿<Properties StartupConfiguration="{38B8C678-9471-4DD3-8A61-FC43AC357881}|Default">
-  <MonoDevelop.Ide.ItemProperties.OOP1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.OOP2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+﻿<Properties StartupConfiguration="{C220855D-8705-428A-A11B-ABFC84816EB5}|Default">
+  <MonoDevelop.Ide.ItemProperties.OOP3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOP 2/CalcoloArray.cs">
+  <MonoDevelop.Ide.ItemProperties.Progetto_220Settimanale PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OOP1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OOP2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Progetto Settimanale/Program.cs">
     <Files>
-      <File FileName="OOP 2/CalcoloArray.cs" Line="8" Column="31" />
-      <File FileName="OOP 2/Program.cs" Line="9" Column="51" />
+      <File FileName="OOP3/Program.cs" Line="1" Column="1" />
+      <File FileName="OOP 2/Program.cs" />
+      <File FileName="Progetto Settimanale/Program.cs" Line="14" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +21,14 @@
           <Node name="Week1" expanded="True">
             <Node name="Intro OOP" expanded="True" />
             <Node name="OOP1" expanded="True" />
-            <Node name="OOP2" expanded="True">
-              <Node name="CalcoloArray.cs" selected="True" />
+            <Node name="OOP2" expanded="True" />
+            <Node name="OOP3" expanded="True" />
+            <Node name="Progetto Settimanale" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.OOP3 FirstBuild="True" />
 </Properties>
