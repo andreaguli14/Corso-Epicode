@@ -4,15 +4,17 @@ class Program {
     static void Main(string[] args)
     {
         List<string> gruppo = new List<string>();
-        gruppo.Add("franco");
-        gruppo.Add("armando");
-        gruppo.Add("saro");
-        gruppo.Add("andrea");
-
-        var test = new Test<string>();
+        Console.WriteLine("Quante Persone siete?");
+        int n = int.Parse(Console.ReadLine());
+        for(int i=1; i<=n; i++) {
+            Console.WriteLine($"Insersci persona {i}:");
+            string persona = Console.ReadLine();
+            gruppo.Add(persona);
+        }
+        Randomizzatore<string> test = new Randomizzatore<string>();
 
         gruppo = test.Shuffle(gruppo);
-        
+        Console.WriteLine("=======ORDINE CASUALE========");
         foreach (var persona in gruppo) {
 
             Console.WriteLine(persona);
@@ -20,17 +22,17 @@ class Program {
     }
 }
 
-public class Test<T>
+public class Randomizzatore<T>
 {
-    private Random random;
+    private Random n;
 
-    public Test()
+    public Randomizzatore()
     {
-        random = new Random();
+        n = new Random();
     }
 
     public List<T> Shuffle(List<T> list)
     {
-      return list.OrderBy(x => random.Next()).ToList();
+      return list.OrderBy(x => n.Next()).ToList();
     }
 }
