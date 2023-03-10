@@ -55,30 +55,31 @@ public class Contribuente
     {
         double reddito = RedditoAnnuale;
         double imposta = 0.0;
+        double aliquota;
 
         if (reddito <= 15000)
         {
-            double aliquota = 0.23;
+            aliquota = 0.23;
             imposta = reddito * aliquota;
         }
         else if (reddito <= 28000)
         {
-            double aliquota = 0.27;
+            aliquota = 0.27;
             imposta = 3450 + (reddito - 15000) * aliquota;
         }
         else if (reddito <= 55000)
         {
-            double aliquota = 0.38;
+            aliquota = 0.38;
             imposta = 6960 + (reddito - 28000) * aliquota;
         }
         else if (reddito <= 75000)
         {
-            double aliquota = 0.41;
+            aliquota = 0.41;
             imposta = 17220 + (reddito - 55000) * aliquota;
         }
         else
         {
-            double aliquota = 0.43;
+            aliquota = 0.43;
             imposta = 25420 + (reddito - 75000) * aliquota;
         }
 
