@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progetto Settimanale", "Progetto Settimanale\Progetto Settimanale.csproj", "{C220855D-8705-428A-A11B-ABFC84816EB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random", "Random\Random.csproj", "{FD8787D3-73C1-417E-8174-EFF49747C158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C220855D-8705-428A-A11B-ABFC84816EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C220855D-8705-428A-A11B-ABFC84816EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C220855D-8705-428A-A11B-ABFC84816EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8787D3-73C1-417E-8174-EFF49747C158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8787D3-73C1-417E-8174-EFF49747C158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8787D3-73C1-417E-8174-EFF49747C158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8787D3-73C1-417E-8174-EFF49747C158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

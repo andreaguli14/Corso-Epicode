@@ -1,0 +1,15 @@
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/bin/Release/net7.0/Random
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/bin/Release/net7.0/Random.deps.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/bin/Release/net7.0/Random.runtimeconfig.json
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/bin/Release/net7.0/Random.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/bin/Release/net7.0/Random.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.csproj.AssemblyReference.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.AssemblyInfoInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.AssemblyInfo.cs
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.csproj.CoreCompileInputs.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/refint/Random.dll
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.pdb
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/Random.genruntimeconfig.cache
+/Users/andreaguli14/Desktop/Corso Epicode/Week1/Random/obj/Release/net7.0/ref/Random.dll
