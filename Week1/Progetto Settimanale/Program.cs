@@ -82,7 +82,7 @@ public class Contribuente
             imposta = 25420 + (reddito - 75000) * aliquota;
         }
 
-        return Imposta = imposta;
+        return imposta;
     }
     public void Print()
     {
